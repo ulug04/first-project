@@ -10,8 +10,7 @@ fun main(args: Array<String>) {
 
 
     // one car
-    //val bmw = Car()
-
+    val bmw = Car()
 //    bmw.drive()
 //    bmw.stop()
 //    bmw.drive()
@@ -37,28 +36,18 @@ fun main(args: Array<String>) {
     c = b.plus(a)
 
     println (c)
+
+
+    val samsung = Phone()
+
+    samsung.call()
+    samsung.findUser()
+
+
+
+
 }
 
-
-class Car(){
-
-    var isDriving = false
-
-
-    fun drive(){
-
-        isDriving = true
-        println(isDriving)
-    }
-
-
-    fun stop(){
-
-        isDriving = false
-        println(isDriving)
-    }
-
-}
 
 
 
