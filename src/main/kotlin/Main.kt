@@ -43,6 +43,11 @@ fun main(args: Array<String>) {
     samsung.call()
     samsung.findUser()
 
+    val Airbus = Airplane()
+
+    Airbus.takingoff()
+    Airbus.refueling()
+
 
 
 
