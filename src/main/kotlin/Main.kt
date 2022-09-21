@@ -1,19 +1,42 @@
 fun main(args: Array<String>) {
 
-    val c = mutableListOf(67, 45, 3, 50) // 0, 1 , 2, 3
+//    val c = mutableListOf(67, 45, 3, 50) // 0, 1 , 2, 3
+//
+//    val d = mutableListOf(1, 2, 3, 4)
+//
+////    println(c.size)
+//
+//    c.forEachIndexed { index, number ->
+//        d.add(index+1)
+//    }
+//
+//
+//    d.forEach {
+//        println(it)
+//    }
 
-    val d = mutableListOf(1, 2, 3, 4)
 
-//    println(c.size)
+    val a = 5
 
-    c.forEachIndexed { index, number ->
-        d.add(index+1)
+    val b = 10
+
+    val c = 10
+
+    val d = 9
+
+    if (b == c &&  (a > c || b > a)){
+        println("ulug")
+
+
+    } else if (c>d || d == b){
+        println("asil")
+
+    }else{
+        //bla bla
     }
 
 
-    d.forEach {
-        println(it)
-    }
+
 
 
 
