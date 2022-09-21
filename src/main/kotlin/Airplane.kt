@@ -2,15 +2,23 @@ class Airplane() {
 
     var isflying = false
 
-    fun takingoff(){
+    fun takingoff() {
 
         isflying = true
         println(isflying)
     }
-    fun refuiling(){
+
+    fun refuiling() {
 
         isflying = false
         println(isflying)
+    }
+
+
+}
+
+
+
 
 
 

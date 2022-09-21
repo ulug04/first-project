@@ -1,4 +1,4 @@
-class Macbook() {
+class Macbook(){
 
     var isswichedoff = true
 

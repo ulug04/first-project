@@ -1,59 +1,19 @@
 fun main(args: Array<String>) {
 
+    val c = mutableListOf(67, 45, 3, 50) // 0, 1 , 2, 3
 
-    // 3 cars
-//    Car().drive()
-//    Car().stop()
-//    Car().drive()
+    val d = mutableListOf(1, 2, 3, 4)
 
+//    println(c.size)
 
-
-
-    // one car
-    val bmw = Car()
-//    bmw.drive()
-//    bmw.stop()
-//    bmw.drive()
+    c.forEachIndexed { index, number ->
+        d.add(index+1)
+    }
 
 
-    val a = 5
-    val b = 10
-    var c = 0
-
-    c = a + b
-
-
-    println(c)
-
-    c = (a * b)/2
-
-    println(c)
-
-    c -= 5  // c = c - 5
-
-    c += 5 // c = c + 5
-
-    c = b.plus(a)
-
-    println (c)
-
-
-    val samsung = Phone()
-
-    samsung.call()
-    samsung.findUser()
-
-     val Airbus = Airplane()
-
-    Airbus.takingoff()
-    Airbus.refuiling()
-
-    val mac = Macbook()
-
-    mac.programming()
-    mac.restart()
-
-
+    d.forEach {
+        println(it)
+    }
 
 
 
