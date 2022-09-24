@@ -4,6 +4,9 @@ fun main(args: Array<String>) {
 
     val d = mutableListOf(1, 2, 3, 4)
 
+    c.forEach {   }
+
+
 
 
 
