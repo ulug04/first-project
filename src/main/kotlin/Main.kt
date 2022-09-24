@@ -4,7 +4,16 @@ fun main(args: Array<String>) {
 
     val d = mutableListOf(1, 2, 3, 4)
 
-    c.forEach {   }
+    var number = d[1]
+
+    c.forEach {ggg ->
+
+    number = number * ggg
+
+        println(number)
+
+    }
+
 
 
 
