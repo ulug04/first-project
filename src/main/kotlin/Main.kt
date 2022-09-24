@@ -4,16 +4,8 @@ fun main(args: Array<String>) {
 
     val d = mutableListOf(1, 2, 3, 4)
 
-//    println(c.size)
-
-    c.forEachIndexed { index, number ->
-        d.add(index+1)
-    }
 
 
-    d.forEach {
-        println(it)
-    }
 
 
 
