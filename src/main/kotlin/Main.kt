@@ -16,7 +16,11 @@ fun main(args: Array<String>) {
 
 
 
+    val dog = Dog()
 
+    val cat = Cat()
+
+    val airplane = Airplane()
 
 
 

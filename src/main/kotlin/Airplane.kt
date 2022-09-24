@@ -1,11 +1,11 @@
-class Airplane() {
+class Airplane {
 
     var isflying = false
 
     fun takingoff() {
 
-        isflying = true
-        println(isflying)
+        val animal = Animal()
+        animal.look()
     }
 
     fun refuiling() {
